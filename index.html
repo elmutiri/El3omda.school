@@ -1,0 +1,567 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="الموقع التعريفي لمدرسة العمدة السيد أحمد قطب الظواهري الثانوية المشتركة">
+    <meta name="theme-color" content="#102542">
+
+    <title>EL3omda.School | الموقع الرسمي</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- شريط التنقل -->
+
+<header class="header">
+    <a href="#home" class="brand">
+        <div class="brand-icon">
+            <img src="images/logo.jpg" alt="شعار مدرسة العمدة">
+        </div>
+
+        <div class="brand-text">
+            <strong>مدرسة العمدة</strong>
+            <span>الثانوية المشتركة</span>
+        </div>
+    </a>
+
+<button class="theme-toggle" id="themeToggle"
+        type="button" aria-label="تفعيل الوضع الداكن"
+        aria-pressed="false" title="تغيير المظهر">
+    <span id="themeIcon">☾</span>
+</button>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="فتح القائمة"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav" id="mainNav">
+            <a href="#home">الرئيسية</a>
+            <a href="#about">عن المدرسة</a>
+            <a href="#principal">إدارة المدرسة</a>
+            <a href="#facilities">المرافق</a>
+            <a href="#honors">المتفوقون</a>
+            <a href="#tribute">لوحة الشرف</a>
+            <a href="#gallery">معرض الصور</a>
+            <a href="#contact" class="nav-contact">تواصل معنا</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- الواجهة الرئيسية بصورة المدرسة -->
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content reveal">
+                <span class="eyebrow">
+                    التعليم • المعرفة • المستقبل
+                </span>
+
+                <h1>
+                    مدرسة العمدة
+                    <span>السيد أحمد قطب الظواهري</span>
+                </h1>
+
+                <p class="hero-description">
+                    الثانوية المشتركة
+                </p>
+
+                <p class="hero-subtitle">
+                    نحو بيئة تعليمية ملهمة، نصنع فيها المعرفة
+                    وننمي القدرات ونفتح آفاق المستقبل.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#about" class="btn btn-primary">
+                        اكتشف مدرستنا
+                    </a>
+
+                    <a href="#gallery" class="btn btn-outline">
+                        استكشف الصور
+                    </a>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-indicator"
+               aria-label="انتقل إلى القسم التالي">
+                <span>اكتشف المزيد</span>
+                <span class="scroll-arrow">↓</span>
+            </a>
+
+            <div class="hero-number">ELMUTIRI / 305</div>
+        </section>
+
+        <!-- تعريف مختصر -->
+        <section class="intro section" id="about">
+            <div class="section-heading reveal">
+                <span class="section-label">مرحبًا بكم</span>
+                <h2>مدرستنا.. <span>طريق نحو المستقبل</span></h2>
+                <p>
+                    مساحة تعليمية تهدف إلى دعم الطلاب في رحلتهم العلمية،
+                    وتنمية مهاراتهم، وتشجيعهم على الإبداع والتميز.
+                </p>
+            </div>
+
+            <div class="intro-grid">
+                <article class="intro-card reveal">
+                    <div class="card-icon">✦</div>
+                    <h3>رؤيتنا</h3>
+                    <p>
+                        السعي إلى بيئة تعليمية محفزة تساعد الطلاب
+                        على التعلم والتطور والاستعداد للمستقبل.
+                    </p>
+                </article>
+
+                <article class="intro-card reveal">
+                    <div class="card-icon">◎</div>
+                    <h3>رسالتنا</h3>
+                    <p>
+                        دعم المعرفة والقيم الإيجابية، وتشجيع التفكير
+                        والإبداع والمسؤولية لدى الطلاب.
+                    </p>
+                </article>
+
+                <article class="intro-card reveal">
+                    <div class="card-icon">↗</div>
+                    <h3>طموحنا</h3>
+                    <p>
+                        توفير تجربة مدرسية تسهم في بناء شخصية الطالب
+                        وتنمية مهاراته العلمية والحياتية.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- إدارة المدرسة -->
+        <section class="principal section" id="principal">
+            <div class="principal-image reveal">
+                <img
+                    src="images/principal.jpg"
+                    alt="صورة مدير مدرسة العمدة"
+                    loading="lazy"
+                    onerror="this.parentElement.classList.add('image-placeholder'); this.style.display='none';"
+                >
+                <div class="placeholder-label">
+                    صورة مدير المدرسة
+                    <span>الأستاذ/عصام عطيه الفاقوسي</span>
+                </div>
+            </div>
+
+            <div class="principal-content reveal">
+                <span class="section-label">إدارة المدرسة</span>
+                <h2>قيادة تدعم <span>التميز التعليمي</span></h2>
+
+                <h3>الأستاذ عصام عطية الفاقوسي</h3>
+
+                <p>
+                    مدير المدرسة، وتُخصص هذه المساحة للتعريف بإدارة
+                    المدرسة ورسالتها التعليمية.
+                </p>
+
+                <a href="#contact" class="text-link">
+                    معلومات المدرسة <span>←</span>
+                </a>
+            </div>
+        </section>
+
+
+        <!-- الوكيلة وأحد أعضاء هيئة التدريس -->
+        <section class="school-team section" id="team">
+            <div class="section-heading reveal">
+                <span class="section-label">أسرة المدرسة</span>
+                <h2>قيادات وكوادر <span>نفتخر بها</span></h2>
+                <p>مساحة للتعريف ببعض أفراد أسرة المدرسة.</p>
+            </div>
+            <div class="people-grid">
+                <article class="person-card reveal">
+                    <div class="person-photo">
+                        <img src="images/vice-principal.jpg" alt="صورة وكيلة المدرسة" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('image-placeholder')">
+                        <div class="placeholder-label">صورة وكيلة المدرسة<span>vice-principal.jpg</span></div>
+                    </div>
+                    <div class="person-details"><span class="section-label">إدارة المدرسة</span><h3>وكيلة المدرسة</h3><p>مديحه فراج.</p></div>
+                </article>
+                <article class="person-card reveal">
+                    <div class="person-photo">
+                        <img src="images/teacher.jpg" alt="صورة أحد معلمي المدرسة" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('image-placeholder')">
+                        <div class="placeholder-label">صورة المدرس<span>teacher.jpg</span></div>
+                    </div>
+                    <div class="person-details"><span class="section-label">هيئة التدريس</span><h3>أحد معلمي المدرسة</h3><p>الأستاذ/حسين متخصص ماده البرمجه والذكاء الاصطناعي_في المدرسه.</p></div>
+                </article>
+            </div>
+        </section>
+
+        <!-- المرافق -->
+        <section class="facilities section" id="facilities">
+            <div class="section-heading reveal">
+                <span class="section-label">داخل المدرسة</span>
+                <h2>مساحات <span>للتعلم والإبداع</span></h2>
+                <p>
+                    اكتشف مرافق المدرسة وأماكن التعلم والأنشطة
+                    من خلال مجموعة من الصور.
+                </p>
+            </div>
+
+            <div class="facilities-grid">
+
+                <article class="facility-card facility-large reveal">
+                    <img
+                        src="images/school-building.jpg"
+                        alt="مبنى المدرسة"
+                        loading="lazy"
+                        onerror="this.parentElement.classList.add('image-placeholder'); this.style.display='none';"
+                    >
+                    <div class="placeholder-label">
+                        صورة مبنى المدرسة
+                        <span>images/school-building.jpg</span>
+                    </div>
+                    <div class="facility-info">
+                        <span>01 / المدرسة</span>
+                        <h3>مبنى المدرسة</h3>
+                    </div>
+                </article>
+
+                <article class="facility-card reveal">
+                    <img
+                        src="images/classrooms.jpg"
+                        alt="الفصول الدراسية"
+                        loading="lazy"
+                        onerror="this.parentElement.classList.add('image-placeholder'); this.style.display='none';"
+                    >
+                    <div class="placeholder-label">
+                        صورة الفصول الدراسية
+                        <span>images/classrooms.jpg</span>
+                    </div>
+                    <div class="facility-info">
+                        <span>02 / التعلم</span>
+                        <h3>الفصول الدراسية</h3>
+                    </div>
+                </article>
+
+                <article class="facility-card reveal">
+                    <img
+                        src="images/laboratory.jpg"
+                        alt="المعامل التعليمية"
+                        loading="lazy"
+                        onerror="this.parentElement.classList.add('image-placeholder'); this.style.display='none';"
+                    >
+                    <div class="placeholder-label">
+                        صورة المعامل
+                        <span>images/laboratory.jpg</span>
+                    </div>
+                    <div class="facility-info">
+                        <span>03 / المعرفة</span>
+                        <h3>المعامل التعليمية</h3>
+                    </div>
+                </article>
+
+
+                <article class="facility-card reveal">
+                    <img src="images/school-yard.jpg" alt="حوش المدرسة" loading="lazy" onerror="this.parentElement.classList.add('image-placeholder');this.style.display='none';">
+                    <div class="placeholder-label">صورة حوش المدرسة<span>school-yard.jpg</span></div>
+                    <div class="facility-info"><span>04 / المدرسة</span><h3>حوش المدرسة</h3></div>
+                </article>
+                <article class="facility-card reveal">
+                    <img src="images/school-entrance.jpg" alt="مدخل المدرسة" loading="lazy" onerror="this.parentElement.classList.add('image-placeholder');this.style.display='none';">
+                    <div class="placeholder-label">صورة مدخل المدرسة<span>school-entrance.jpg</span></div>
+                    <div class="facility-info"><span>05 / المدرسة</span><h3>مدخل المدرسة</h3></div>
+                </article>
+            </div>
+        </section>
+
+        <!-- معرض الصور -->
+        <section class="gallery section" id="gallery">
+            <div class="section-heading reveal">
+                <span class="section-label">ذاكرة المدرسة</span>
+                <h2>معرض <span>الصور</span></h2>
+                <p>
+                    لحظات من الحياة المدرسية والأنشطة والفعاليات  المدرسة.
+                </p>
+            </div>
+
+            <div class="gallery-grid">
+
+                <button class="gallery-item reveal"
+                        data-image="images/gallery-1.jpg"
+                        data-caption="الحياة المدرسية"
+                        aria-label="عرض صورة الحياة المدرسية">
+                    <img src="images/gallery-1.jpg"
+                         alt="الحياة المدرسية" loading="lazy"
+                         onerror="this.parentElement.classList.add('image-placeholder'); this.style.display='none';">
+                    <span class="placeholder-label">
+                        صورة 01
+                        <span>الحياة المدرسية</span>
+                    </span>
+                    <span class="gallery-caption">الحياة المدرسية ↗</span>
+                </button>
+
+                <button class="gallery-item reveal"
+                        data-image="images/gallery-2.jpg"
+                        data-caption="الأنشطة الطلابية"
+                        aria-label="عرض صورة الأنشطة الطلابية">
+                    <img src="images/gallery-2.jpg"
+                         alt="الأنشطة الطلابية" loading="lazy"
+                         onerror="this.parentElement.classList.add('image-placeholder'); this.style.display='none';">
+                    <span class="placeholder-label">
+                        صورة 02
+                        <span>الأنشطة الطلابية</span>
+                    </span>
+                    <span class="gallery-caption">الأنشطة الطلابية ↗</span>
+                </button>
+
+                <button class="gallery-item reveal"
+                        data-image="images/gallery-3.jpg"
+                        data-caption="فعاليات المدرسة"
+                        aria-label="عرض صورة فعاليات المدرسة">
+                    <img src="images/gallery-3.jpg"
+                         alt="فعاليات المدرسة" loading="lazy"
+                         onerror="this.parentElement.classList.add('image-placeholder'); this.style.display='none';">
+                    <span class="placeholder-label">
+                        صورة 03
+                        <span>فعاليات المدرسة</span>
+                    </span>
+                    <span class="gallery-caption">فعاليات المدرسة ↗</span>
+                </button>
+
+                <button class="gallery-item reveal"
+                        data-image="images/gallery-4.jpg"
+                        data-caption="المرافق التعليمية"
+                        aria-label="عرض صورة المرافق التعليمية">
+                    <img src="images/gallery-4.jpg"
+                         alt="المرافق التعليمية" loading="lazy"
+                         onerror="this.parentElement.classList.add('image-placeholder'); this.style.display='none';">
+                    <span class="placeholder-label">
+                        صورة 04
+                        <span>المرافق التعليمية</span>
+                    </span>
+                    <span class="gallery-caption">المرافق التعليمية ↗</span>
+                </button>
+
+            </div>
+        </section>
+
+
+        <!-- الطلاب المجتهدون -->
+        <section class="student-honors section" id="honors">
+            <div class="section-heading reveal">
+                <span class="section-label">نفخر بطلابنا</span>
+                <h2>طلاب <span>مجتهدون ومتميزون</span></h2>
+                <p>نحتفي بالاجتهاد والمشاركة الإيجابية.لطلاب مدرستنا المجتهدون .</p>
+            </div>
+            <div class="students-grid">
+                <article class="student-card reveal"><div class="student-photo"><img src="images/student-1.jpg" alt="صورة طالب متميز" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('image-placeholder')"><div class="placeholder-label">صورة الطالب الأول<span>student-1.jpg</span></div></div><h3>الطالب الأول</h3><p>صلاح مرسي صلاح.</p></article>
+                <article class="student-card reveal"><div class="student-photo"><img src="images/student-2.jpg" alt="صورة طالب متميز" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('image-placeholder')"><div class="placeholder-label">صورة الطالب الثاني<span>student-2.jpg</span></div></div><h3>الطالب الثاني</h3><p>أحمد فاروق فتحي.</p></article>
+                <article class="student-card reveal"><div class="student-photo"><img src="images/student-3.jpg" alt="صورة طالب متميز" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('image-placeholder')"><div class="placeholder-label">صورة الطالب الثالث<span>student-3.jpg</span></div></div><h3>الطالب الثالث</h3><p>احمد محمد احمد.</p></article>
+            </div>
+        </section>
+
+  
+
+<!-- تواصل معنا -->
+<section class="contact section" id="contact">
+    <div class="contact-box reveal">
+
+        <span class="section-label">
+            نسعد بتواصلكم
+        </span>
+
+        <h2>مدرسة العمدة</h2>
+
+        <p>
+            العمدة السيد أحمد قطب الظواهري الثانوية المشتركة
+        </p>
+
+        <!-- جروب المدرسة على فيسبوك -->
+        <p class="contact-note">
+            <a href="https://www.facebook.com/share/g/1Dhg1RzV6p/?mibextid=wwXIfr"
+               target="_blank"
+               rel="noopener noreferrer">
+                🔵 جروب المدرسة على فيسبوك
+            </a>
+        </p>
+
+        <!-- واتساب المدير -->
+        <p class="contact-note">
+            <a href="https://wa.me/201004221701"
+               target="_blank"
+               rel="noopener noreferrer">
+                🟢 تواصل مع مدير المدرسة عبر واتساب
+            </a>
+        </p>
+
+        <!-- الاتصال بالمدير -->
+        <p class="contact-note">
+            <a href="tel:+201004221701">
+                📞 اتصال مباشر: 01004221701
+            </a>
+        </p>
+
+        <!-- موقع المدرسة على الخريطة -->
+        <p class="contact-note">
+            <a href="https://maps.app.goo.gl/vtLeyCJkCj59Ag5q6?g_st=ic"
+               target="_blank"
+               rel="noopener noreferrer">
+                📍 موقع المدرسة على Google Maps
+            </a>
+        </p>
+
+    </div>
+</section>
+
+
+
+  
+
+<!-- كلمة ختامية ولوحة شرف المطوّر -->
+<section class="tribute section" id="tribute">
+    <div class="tribute-inner">
+
+        <div class="tribute-intro reveal">
+
+            <span class="section-label">
+                ختامًا.. شكر وتقدير
+            </span>
+
+            <h2>
+                بالعلم نبني المستقبل،
+                <span>وبالتعاون نصنع التميز</span>
+            </h2>
+
+            <p>
+                نعتز بمدرسة العمدة السيد أحمد قطب الظواهري
+                الثانوية المشتركة، وبجهود أسرتها التعليمية
+                في مواكبة التطوير التعليمي ودعم طلاب
+                نظام البكالوريا المصرية.
+            </p>
+
+            <p>
+                وشكر خاص إلى
+                <strong>المستر حسين</strong>
+                و<strong>طلاب ثانية خامس (2/5)</strong>،
+                تقديرًا للتعاون وروح المبادرة.
+            </p>
+
+        </div>
+
+        <!-- لوحة شرف المطور -->
+        <div class="developer-honor reveal">
+
+            <!-- صورة المطور -->
+            <div class="developer-portrait">
+
+                <img
+                    src="images/elmutiri.jpg"
+                    alt="صورة مصمم ومطوّر الموقع ELmutiri"
+                    loading="lazy"
+                    onerror="this.style.display='none';this.parentElement.classList.add('image-placeholder')"
+                >
+
+                <div class="placeholder-label">
+                    صورة المطوّر
+                    <span>elmutiri.jpg</span>
+                </div>
+
+            </div>
+
+            <!-- معلومات المطور -->
+            <div class="developer-bio">
+
+                <span class="honor-kicker">
+                    لوحة شرف • تطوير الموقع
+                </span>
+
+                <h3>ELmutiri</h3>
+
+                <p>
+                    تصميم وتطوير الموقع التعريفي
+                    لمدرسة العمدة، بمبادرة طلابية
+                    تجمع بين التعلم والإبداع.
+                </p>
+
+                <strong class="honor-signature">
+                    DESIGNED & DEVELOPED BY ELmutiri
+                    <span>• 305</span>
+                </strong>
+
+                <!-- التواصل عبر واتساب -->
+                <p class="contact-note">
+
+                    <a
+                        href="https://wa.me/201092413935"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        🟢 تواصل مع المطيري عبر واتساب
+                    </a>
+
+                </p>
+
+                <!-- التواصل عبر تليجرام -->
+                <p class="contact-note">
+
+                    <a
+                        href="https://t.me/+201092413935"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        ✈️ تواصل مع المطيري عبر تليجرام
+                    </a>
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+
+    <!-- الفوتر والختم -->
+    <footer class="footer">
+        <div class="footer-school">
+            <strong>مدرسة العمدة</strong>
+            <span>العمدة السيد أحمد قطب الظواهري الثانوية المشتركة</span>
+        </div>
+
+        <div class="developer-stamp">
+            <span>DESIGNED & DEVELOPED BY</span>
+            <strong>ELmutiri</strong>
+            <small>WEB DEVELOPMENT • 305</small>
+        </div>
+
+        <p class="copyright">
+            جميع الحقوق محفوظة © <span id="currentYear"></span>
+        </p>
+    </footer>
+
+    <!-- نافذة عرض الصور -->
+    <div class="lightbox" id="lightbox"
+         role="dialog" aria-modal="true"
+         aria-label="عارض الصور" aria-hidden="true">
+        <button class="lightbox-close" id="lightboxClose"
+                aria-label="إغلاق الصورة">×</button>
+        <img id="lightboxImage" src="" alt="">
+        <p id="lightboxCaption"></p>
+    </div>
+
+    <!-- ملف التفاعلات الحالي -->
+    <!-- ELMUTIRI | Website Scripts -->
+<script src="script.js"></script>
+<script type="module" src="scene3d.js"></script>
+
+</body>
+</html>
